@@ -49,3 +49,76 @@ body{
     background-color: white;
     color:#0078E7;
 }
+
+.main-inner{
+      
+    background-color:white;
+}
+.container{
+    display:grid;
+    grid-template-columns: 2fr .2fr 2fr;
+    grid-gap:2rem;
+    width:65vw;
+    margin:auto;
+}
+#line{
+    background-color: black;
+    width:1px;
+    height:200px;
+    margin-top: 12px;
+}
+
+.project p{
+    color:#000000;
+    font-weight:bold;
+    font-size:2rem;
+    line-height: 1.2;
+
+}
+.project p span{
+    font-weight: 400;
+    font-size: medium;
+}
+.quote{
+    font-size:20px;
+    display:flex;
+    align-items:center;
+}
+.photos{
+    background-color:white;
+}
+
+.img .pic{
+    width:270px;
+    height:200px;
+}
+.image{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+}
+.upper{
+    display: flex;
+    width:70%;
+    padding:20px;
+    margin:auto;
+    justify-content: space-around;
+}
+.lower{
+    display: grid;
+    grid-template-columns: .8fr 1fr 1fr;
+    grid-gap: 20px;
+    width:67%;
+    margin:auto;
+}
+.lower .img .pic1{
+    width:350px;
+    height:200px;
+} 
+.lower .img .pic0{
+    height:200px;
+} 
+.lower .img .pic2{
+    width:350px;
+    height:200px;
+}
