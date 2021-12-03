@@ -4,10 +4,7 @@ body{
     background-size:300px;
     font-family: 'Source Sans Pro', sans-serif;
 }
-.site{
-    
-    border: 1px solid red;
-}
+
 .head{
     width:70vw;
     margin: auto;
