@@ -9,7 +9,6 @@ body{
 }
 .site{
    display:flex;
-   border:1px solid red;
    height:100vh;
    flex-direction:column;
    justify-content:center;
@@ -18,33 +17,70 @@ body{
 .main{
     display:flex;
     justify-content:space-around;
-    border:1px solid blue;
+    margin-top:50px;
     height:100vh;
     width:70%;
     align-items:center;
 }
+.joinus{
+    display:flex;
+    justify-content:space-between;
+    font-size:medium;
+
+    background-color:white;
+    padding: 7px 80px 7px 80px;
+}
 .form{
     display:flex;
-    height:40%;
+    height:60%;
     flex-direction:column;
     justify-content:center;
     align-items: center;
-    justify-content: space-around;
+
+    justify-content: space-between;
+
 }
-.signup{
+ .signup{
     display:flex;
     flex-direction:column;
-    background-color:rgb(98, 172, 236);
+    background-color:rgb(147, 179, 207);
     height:70vh;
-    width:25vw;
+    width:20vw;
     border-radius: 30px;
+}
+.signuptitle{
+    padding-left:60px;
 }
 .block{
     display:block;
+    margin-bottom:20px;
 }
-.footer{
+.joinbutton{
+    margin-top:40px;
+    margin-left:80px;
+    padding-top:10px;
+    padding-bottom:10px; 
+    padding-left:30px;
+    padding-right:30px;
+    color:white;
+    background-color:#0078E7;
+    border-radius:30px;
+    border-color:rgb(147, 179, 207);
+}
+.innerfooter{
     display:flex;
-    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+
+    height:auto;
+    width:98vw;
+    background-color:white;
+    
+}
+.input-box{
+    padding:10px;
+    border-radius:40px;
+    border-color: rgb(147, 179, 207);
 }
 
 
